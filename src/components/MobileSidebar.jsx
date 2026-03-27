@@ -1,32 +1,6 @@
 import { useState } from "react"
 import { X, ChevronDown } from "lucide-react"
-
-const categories = [
-  {
-    name: "Home & Living",
-    items: ["Art Prints", "Coasters", "Fridge Magnets", "Keychains", "Wall Decor"],
-  },
-  {
-    name: "Fashion",
-    items: ["Jewelry", "Bags", "Hair Accessories"],
-  },
-  {
-    name: "Stationery",
-    items: ["Notebooks", "Pens", "Sticky Notes"],
-  },
-  {
-    name: "Travel",
-    items: ["Passport Covers", "Luggage Tags"],
-  },
-  {
-    name: "Kids",
-    items: ["Toys", "School Items"],
-  },
-  {
-    name: "Bundles",
-    items: ["Bracelets Bundle", "Earrings Bundle"],
-  },
-]
+import { categories } from "../data/categories"
 
 export default function MobileSidebar({ isOpen, setIsOpen }) {
   const [openIndex, setOpenIndex] = useState(null)

@@ -8,16 +8,15 @@ export default function PinterestGrid({ products, title }) {
   return (
     <div className="w-full">
       {title && (
-        <div className="flex flex-col sm:flex-row items-baseline justify-between mb-10 gap-4">
-          <h2 className="text-3xl md:text-5xl font-black text-gray-900 tracking-tight">{title}</h2>
+        <div className="flex flex-col sm:flex-row items-baseline justify-between mb-10  gap-4">
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900 tracking-tight">{title}</h2>
           <Link to="/products/all/all" className="text-gray-500 font-semibold hover:text-primary transition-colors text-lg inline-flex items-center gap-2">
             View Collection &rarr;
           </Link>
         </div>
       )}
       
-      {/* CSS Columns layout for masonry (Pinterest style) */}
-      <div className="columns-2 md:columns-3 lg:columns-4 gap-4 md:gap-6 space-y-4 md:space-y-6">
+       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 md:gap-6 space-y-4 md:space-y-6">
         {products.map((product) => {
           const imageSrc = product?.images?.[0] || product?.img || "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400&h=600&fit=crop";
 
@@ -26,8 +25,7 @@ export default function PinterestGrid({ products, title }) {
             key={product.id} 
             className="break-inside-avoid relative group rounded-3xl overflow-hidden bg-white border border-gray-100/60 shadow-sm hover:shadow-2xl transition-all duration-500 cursor-pointer"
           >
-            {/* Aspect logic handled implicitly by image natural height in column layout. We just render the img */}
-            <Link to={`/product/${product.id}`} className="block relative w-full h-full bg-gray-50">
+             <Link to={`/product/${product.id}`} className="block relative w-full h-full bg-gray-50">
               <img 
                 src={imageSrc} 
                 alt={product.name} 
@@ -36,18 +34,18 @@ export default function PinterestGrid({ products, title }) {
               />
               
               {/* Overlay Gradients */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" /> */}
             </Link>
 
             {/* Hover Actions (Desktop) */}
-            <div className="absolute top-4 right-4 flex flex-col gap-2 translate-x-12 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 z-10 hidden lg:flex pointer-events-none">
+            <div className="absolute top-4 right-4 cursor-pointer flex flex-col gap-2 translate-x-12 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 z-10 hidden lg:flex pointer-events-none">
               <button className="bg-white/90 backdrop-blur text-gray-800 p-2.5 rounded-full hover:bg-red-500 hover:text-white pointer-events-auto transition-colors shadow-lg">
                 <Heart size={18} />
               </button>
             </div>
             
             {/* Details floating over bottom */}
-            <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-10 pointer-events-none hidden lg:block">
+            <div className="absolute bottom-5 left-0 right-0 p-5 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 z-10 pointer-events-none hidden lg:block">
               <h3 className="text-white font-bold text-xl leading-tight mb-1">{product.name}</h3>
               <p className="text-gray-200 font-medium">{product.price}</p>
             </div>

@@ -1,29 +1,29 @@
 export const products = [
   { 
     id: 1, name: "Floral Art Print", price: "₹299", category: "Stationery", subCategory: "Art Prints", 
-    img: "https://images.unsplash.com/photo-1578862952132-13bbc791310a", 
-    images: ["https://images.unsplash.com/photo-1578862952132-13bbc791310a"], 
+    img: "https://i.pinimg.com/1200x/b4/b6/72/b4b6724f6edca49ade935ca5b61870fe.jpg", 
+    images: ["https://i.pinimg.com/1200x/b4/b6/72/b4b6724f6edca49ade935ca5b61870fe.jpg"], 
     desc: "Hand-drawn floral art print, framed ready. Perfect wall decor for modern homes.", 
     specs: { size: "A4", material: "Matte paper" } 
   },
   { 
     id: 2, name: "Ceramic Coaster Set", price: "₹499", category: "Home & Living", subCategory: "Coasters", 
-    img: "https://images.unsplash.com/photo-1628127064055-b01e8d4ee539", 
-    images: ["https://images.unsplash.com/photo-1628127064055-b01e8d4ee539"], 
+    img: "https://i.pinimg.com/1200x/10/50/2e/10502e8e06096106757f0184bf96a14e.jpg", 
+    images: ["https://i.pinimg.com/1200x/10/50/2e/10502e8e06096106757f0184bf96a14e.jpg"], 
     desc: "4-piece ceramic set with floral patterns. Heat resistant.", 
     specs: { qty: "4" } 
   },
   { 
     id: 3, name: "Pearl Drop Earrings", price: "₹899", category: "Fashion", subCategory: "Jewelry", 
-    img: "https://images.unsplash.com/photo-1713004539634-a6694a83f3d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFBlYXJsJTIwRHJvcCUyMEVhcnJpbmdzfGVufDB8fDB8fHww", 
-    images: ["https://images.unsplash.com/photo-1713004539634-a6694a83f3d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFBlYXJsJTIwRHJvcCUyMEVhcnJpbmdzfGVufDB8fDB8fHww"], 
+    img: "https://plus.unsplash.com/premium_photo-1739548338201-4c337ce176d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVhcmwlMjBEcm9wJTIwRWFycmluZ3N8ZW58MHx8MHx8fDA%3D", 
+    images: ["https://plus.unsplash.com/premium_photo-1739548338201-4c337ce176d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVhcmwlMjBEcm9wJTIwRWFycmluZ3N8ZW58MHx8MHx8fDA%3D"], 
     desc: "Elegant pearl earrings with gold plating. Comfortable for daily wear.", 
     specs: { material: "Gold plate" } 
   },
   { 
     id: 4, name: "Leather Keychain", price: "₹199", category: "Travel", subCategory: "Keychains", 
     img: "https://images.unsplash.com/photo-1585818469764-1dbce709d6d6", 
-    images: ["https://images.unsplash.com/photo-1585818469764-1dbce709d6d6"], 
+    images: ["https://i.pinimg.com/1200x/7a/ef/ee/7aefee31cc15fbc82f359a6d74278c01.jpg"], 
     desc: "Personalized leather keychain with gold hardware.", 
     specs: { material: "Genuine leather" } 
   },
@@ -50,15 +50,15 @@ export const products = [
   },
   { 
     id: 8, name: "Bamboo Travel Mug", price: "₹599", category: "Travel", subCategory: "Mugs", 
-    img: "https://images.unsplash.com/photo-1517502421609-026c2e39c4a4", 
-    images: ["https://images.unsplash.com/photo-1517502421609-026c2e39c4a4"], 
+    img: "https://i.pinimg.com/1200x/ad/e9/09/ade909ed16b102c20826a09ee4ba5205.jpg", 
+    images: ["https://i.pinimg.com/1200x/ad/e9/09/ade909ed16b102c20826a09ee4ba5205.jpg"], 
     desc: "Sustainable bamboo mug for hot drinks on the go.", 
     specs: { capacity: "350ml" } 
   },
   { 
     id: 9, name: "Cute Dinosaur Plush", price: "₹899", category: "Kids", subCategory: "Toys", 
-    img: "https://images.unsplash.com/photo-1590240974950-8b1c4153eaec", 
-    images: ["https://images.unsplash.com/photo-1590240974950-8b1c4153eaec"], 
+    img: "https://i.pinimg.com/1200x/1f/4c/46/1f4c46918824597dbdbf6e15106669aa.jpg", 
+    images: ["https://i.pinimg.com/1200x/1f/4c/46/1f4c46918824597dbdbf6e15106669aa.jpg"], 
     desc: "Super soft dinosaur handmade plush toy.", 
     specs: { material: "Cotton" } 
   },
@@ -71,8 +71,8 @@ export const products = [
   },
   { 
     id: 11, name: "Scented Soy Candle", price: "₹450", category: "Home & Living", subCategory: "Candles", 
-    img: "https://images.unsplash.com/photo-1602874801007-bd458cb6c975", 
-    images: ["https://images.unsplash.com/photo-1602874801007-bd458cb6c975"], 
+    img: "https://i.pinimg.com/736x/f5/11/7b/f5117b231e8a396a0f05fdae3e1b1a83.jpg", 
+    images: ["https://i.pinimg.com/736x/f5/11/7b/f5117b231e8a396a0f05fdae3e1b1a83.jpg"], 
     desc: "Lavender and vanilla soy candle in minimalist glass jar.", 
     specs: { weight: "200g" } 
   },
@@ -92,8 +92,8 @@ export const products = [
   },
   { 
     id: 14, name: "Weekend Duffel Bag", price: "₹2199", category: "Travel", subCategory: "Bags", 
-    img: "https://images.unsplash.com/photo-1551608757-b08e7ff1b17a", 
-    images: ["https://images.unsplash.com/photo-1551608757-b08e7ff1b17a"], 
+    img: "https://i.pinimg.com/736x/78/12/3c/78123cb760223b7c94dc98ad96d63307.jpg", 
+    images: ["https://i.pinimg.com/736x/78/12/3c/78123cb760223b7c94dc98ad96d63307.jpg"], 
     desc: "Canvas and leather weekender bag.", 
     specs: { size: "Large" } 
   },
@@ -127,8 +127,8 @@ export const products = [
   },
   { 
     id: 19, name: "Aesthetic Coffee Mug", price: "₹350", category: "Home & Living", subCategory: "Mugs", 
-    img: "https://images.unsplash.com/photo-1574889759495-9b2f6fb39f28", 
-    images: ["https://images.unsplash.com/photo-1574889759495-9b2f6fb39f28"], 
+    img: "https://i.pinimg.com/1200x/0c/4c/f1/0c4cf1bf3d576b59d79ffdb1e42a5c87.jpg", 
+    images: ["https://i.pinimg.com/1200x/0c/4c/f1/0c4cf1bf3d576b59d79ffdb1e42a5c87.jpg"], 
     desc: "Speckled ceramic coffee mug, perfect for your morning brew.", 
     specs: { capacity: "300ml" } 
   },
@@ -141,8 +141,8 @@ export const products = [
   },
   { 
     id: 21, name: "Polaroid Photo Frame", price: "₹299", category: "Home & Living", subCategory: "Decor", 
-    img: "https://images.unsplash.com/photo-1520141380907-7756f4d2f8cc", 
-    images: ["https://images.unsplash.com/photo-1520141380907-7756f4d2f8cc"], 
+    img: "https://i.pinimg.com/736x/7b/69/b0/7b69b032574f957eea5c3e1a8f05b06a.jpg", 
+    images: ["https://i.pinimg.com/736x/7b/69/b0/7b69b032574f957eea5c3e1a8f05b06a.jpg"], 
     desc: "Acrylic block frame for displaying your favorite polaroids.", 
     specs: { size: "Universal polaroid" } 
   },
@@ -204,15 +204,15 @@ export const products = [
   },
   { 
     id: 30, name: "Kids Coloring Book", price: "₹149", category: "Kids", subCategory: "Educational", 
-    img: "https://images.unsplash.com/photo-1605481710522-8d76ae75bc19", 
-    images: ["https://images.unsplash.com/photo-1605481710522-8d76ae75bc19"], 
+    img: "https://i.pinimg.com/736x/23/78/1a/23781afa40c6657217f87ab5f31d80e0.jpg", 
+    images: ["https://i.pinimg.com/736x/23/78/1a/23781afa40c6657217f87ab5f31d80e0.jpg"], 
     desc: "50-page animal coloring book for creative toddlers.", 
     specs: { pages: "50" } 
   },
   { 
     id: 31, name: "Matte Black Tumbler", price: "₹799", category: "Travel", subCategory: "Accessories", 
-    img: "https://images.unsplash.com/photo-1614777596853-bc26f212f7cf", 
-    images: ["https://images.unsplash.com/photo-1614777596853-bc26f212f7cf"], 
+    img: "https://i.pinimg.com/1200x/39/1e/06/391e06896eecda76dfeb5cc8ca2ff89f.jpg", 
+    images: ["https://i.pinimg.com/1200x/39/1e/06/391e06896eecda76dfeb5cc8ca2ff89f.jpg"], 
     desc: "Vacuum insulated tumbler keeps drinks cold for 12 hours.", 
     specs: { capacity: "500ml" } 
   },
@@ -232,8 +232,8 @@ export const products = [
   },
   { 
     id: 34, name: "Fairy Lights", price: "₹249", category: "Home & Living", subCategory: "Decor", 
-    img: "https://images.unsplash.com/photo-1543784860-84c1fded6d28", 
-    images: ["https://images.unsplash.com/photo-1543784860-84c1fded6d28"], 
+    img: "https://i.pinimg.com/736x/84/f6/37/84f637e413312139f22f5e29446fd52d.jpg", 
+    images: ["https://i.pinimg.com/736x/84/f6/37/84f637e413312139f22f5e29446fd52d.jpg"], 
     desc: "10-meter warm white LED string lights. USB powered.", 
     specs: { length: "10m" } 
   },
@@ -246,8 +246,8 @@ export const products = [
   },
   { 
     id: 36, name: "Wooden Puzzle", price: "₹599", category: "Kids", subCategory: "Toys", 
-    img: "https://images.unsplash.com/photo-1608674900139-44585d8869c9", 
-    images: ["https://images.unsplash.com/photo-1608674900139-44585d8869c9"], 
+    img: "https://i.pinimg.com/1200x/02/6f/36/026f36a770bb431acf7697e6124f7d27.jpg", 
+    images: ["https://i.pinimg.com/1200x/02/6f/36/026f36a770bb431acf7697e6124f7d27.jpg"], 
     desc: "Chunky wooden animal puzzle, safe and non-toxic for kids.", 
     specs: { pieces: "12 piece" } 
   },
@@ -274,8 +274,8 @@ export const products = [
   },
   { 
     id: 40, name: "Luggage Tag", price: "₹199", category: "Travel", subCategory: "Accessories", 
-    img: "https://images.unsplash.com/photo-1585818469764-1dbce709d6d6", 
-    images: ["https://images.unsplash.com/photo-1585818469764-1dbce709d6d6"], 
+    img: "https://i.pinimg.com/1200x/7a/ef/ee/7aefee31cc15fbc82f359a6d74278c01.jpg", 
+    images: ["https://i.pinimg.com/1200x/7a/ef/ee/7aefee31cc15fbc82f359a6d74278c01.jpg"], 
     desc: "Durable silicone luggage tag to easily spot your bags.", 
     specs: { color: "Coral" } 
   },
@@ -302,8 +302,8 @@ export const products = [
   },
   { 
     id: 44, name: "Kids Night Light", price: "₹450", category: "Kids", subCategory: "Decor", 
-    img: "https://images.unsplash.com/photo-1543784860-84c1fded6d28", 
-    images: ["https://images.unsplash.com/photo-1543784860-84c1fded6d28"], 
+    img: "https://i.pinimg.com/736x/9b/f9/37/9bf9377551bffbf8b00b5ad1c61a35f7.jpg", 
+    images: ["https://i.pinimg.com/736x/9b/f9/37/9bf9377551bffbf8b00b5ad1c61a35f7.jpg"], 
     desc: "Squishy silicone star night light with soft glow.", 
     specs: { battery: "USB rechargeable" } 
   },
@@ -347,6 +347,41 @@ export const products = [
     img: "https://images.unsplash.com/photo-1596783061556-bb6b039dbbc6", 
     images: ["https://images.unsplash.com/photo-1596783061556-bb6b039dbbc6"], 
     desc: "Block out light with this comfortable, skin-friendly satin eye mask.", 
+    specs: { material: "Satin blend" },
+  },
+  { 
+    id: 51, name: "A Modernist Approach", price: "₹399", category: "Home & Living", subCategory: "Art Prints", 
+    img: "https://i.pinimg.com/736x/9f/46/0a/9f460a98943633a28188b5adc9af71e8.jpg", 
+    images: ["https://i.pinimg.com/736x/9f/46/0a/9f460a98943633a28188b5adc9af71e8.jpg"], 
+    desc: " Featuring clean lines and vibrant tones, this modernist horse artwork offers a sophisticated interpretation of equine beauty through minimalistic, geometric forms..", 
     specs: { material: "Satin blend" } 
-  }
+  },
+   { 
+    id: 52, name: "Washi Tape Bundle", price: "₹299", category: "Home & Living", subCategory: "Art Prints", 
+    img: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338", 
+    images: ["https://images.unsplash.com/photo-1586075010923-2dd4570fb338"], 
+    desc: "Pack of 10 washi tapes with gorgeous botanical patterns.", 
+    specs: { qty: "10 rolls" } 
+  },
+   { 
+    id: 53, name: "Travel magnet", price: "₹199", category: "Home & Living", subCategory: "Fridge Magnets", 
+    img: "https://i.pinimg.com/736x/7a/9b/9b/7a9b9ba09924d8c211bf8ae32d904592.jpg", 
+    images: ["https://i.pinimg.com/736x/7a/9b/9b/7a9b9ba09924d8c211bf8ae32d904592.jpg"], 
+    desc: "Pack of 10 washi tapes with gorgeous botanical patterns.", 
+    specs: { qty: "10 rolls" } 
+  },
+   { 
+    id: 54, name: "Travel magnet", price: "₹199", category: "Home & Living", subCategory: "Keychains", 
+    img: "https://images.unsplash.com/photo-1585818469764-1dbce709d6d6", 
+    images: ["https://i.pinimg.com/1200x/7a/ef/ee/7aefee31cc15fbc82f359a6d74278c01.jpg"], 
+    desc: "Personalized leather keychain with gold hardware.", 
+    specs: { material: "Genuine leather" } 
+  },
+  { 
+    id: 55, name: "Macrame Wall Hanging", price: "₹1199", category: "Home & Living", subCategory: "Wall Decor", 
+    img: "https://images.unsplash.com/photo-1522758971460-1d21eed7dc1d", 
+    images: ["https://images.unsplash.com/photo-1522758971460-1d21eed7dc1d"], 
+    desc: "Hand-knotted boho macrame wall decor.", 
+    specs: { size: "2ft x 3ft" } 
+  },
 ];

@@ -28,15 +28,12 @@ export default function CategoryPage() {
   const filteredProducts = selectedSub ? categoryProducts.filter(p => p.subCategory === selectedSub) : categoryProducts;
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-20">
+    <div className="min-h-screen bg-gray-50">
       {/* Editorial Header */}
-      <div className="bg-white border-b border-gray-100 pt-10 pb-16 px-6 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center">
-          <Link to="/" className="inline-flex items-center text-sm font-medium text-gray-500 hover:text-primary transition-colors mb-6">
-            Home <ChevronRight size={14} className="mx-1 opacity-50" /> Categories
-          </Link>
+      <div className="bg-white border-b border-gray-100  px-6 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto  relative z-10 flex flex-col items-center text-center">
           
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 tracking-tight mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-primary tracking-tight mb-4">
             {category.name}
           </h1>
           <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto font-light">

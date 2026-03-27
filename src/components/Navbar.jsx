@@ -63,24 +63,24 @@ export default function Navbar({ setIsCartOpen }) {
         {/* Right: Actions */}
         <div className="flex items-center gap-3 md:gap-5 text-gray-700">
           <button 
-            className="p-2 hover:text-primary hover:bg-gray-100 rounded-full transition-all duration-300"
+            className="p-2 hover:text-primary hover:bg-gray-100 cursor-pointer rounded-full transition-all duration-300"
             onClick={() => setShowMobileSearch(true)}
             aria-label="Search"
           >
             <Search size={20} />
           </button>
 
-          <button className="hidden md:block p-2 hover:text-primary hover:bg-gray-100 rounded-full transition-all duration-300 relative">
+          <button className="hidden md:block p-2 cursor-pointer hover:text-primary hover:bg-gray-100 rounded-full transition-all duration-300 relative">
             <Heart size={20} />
           </button>
 
           <button 
             onClick={() => setIsCartOpen(true)}
-            className="p-2 hover:text-primary hover:bg-gray-100 rounded-full transition-all duration-300 relative"
+            className="p-2 hover:text-primary hover:bg-gray-100 cursor-pointer rounded-full transition-all duration-300 relative"
           >
             <ShoppingCart size={20} />
             {cartCount > 0 && (
-              <span className="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 bg-red-500 text-white text-[10px] font-bold flex items-center justify-center rounded-full border-2 border-white shadow-sm">
+              <span className="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 cursor-pointer bg-red-500 text-white text-[10px] font-bold flex items-center justify-center rounded-full border-2 border-white shadow-sm">
                 {cartCount}
               </span>
             )}

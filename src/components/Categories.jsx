@@ -29,7 +29,7 @@ export default function Categories() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8">
         {categories.map((cat, index) => (
           <div
             key={index}
@@ -39,7 +39,7 @@ export default function Categories() {
             {/* Circular Image Container */}
             <div className="w-full aspect-square bg-gray-50 rounded-full overflow-hidden mb-4 relative shadow-sm border border-gray-100 group-hover:shadow-lg transition-all duration-500">
               <img
-                src={cat.img}
+                src={cat.image}
                 alt={cat.name}
                 className="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 loading="lazy"

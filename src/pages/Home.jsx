@@ -64,7 +64,7 @@ export const Home = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 min-h-[500px] md:min-h-[400px]">
           <Link to="/products/all/all" className="relative rounded-[2rem] overflow-hidden group shadow-md hover:shadow-2xl transition-all duration-500">
-            <img src="https://images.unsplash.com/photo-1585386959984-a415522316cb?w=600&h=600&fit=crop" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Under 499" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Under 499" loading="lazy" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-black/20 to-transparent flex flex-col justify-end p-8 lg:p-10">
               <span className="text-emerald-300 font-bold tracking-widest text-xs lg:text-sm uppercase mb-2 drop-shadow-md">Steals & Deals</span>
               <h3 className="text-white text-3xl lg:text-4xl font-black drop-shadow-lg leading-none">Under ₹499</h3>

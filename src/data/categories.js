@@ -1,32 +1,32 @@
 export const categories = [
   {
     name: "Home & Living",
-    img: "https://plus.unsplash.com/premium_photo-1723200799213-e6cff0c3e641?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SG9tZSUyMCUyNiUyMExpdmluZ3xlbnwwfHwwfHx8MA%3D%3D",
-    items: ["Art Prints", "Coasters", "Fridge Magnets", "Keychains", "Wall Decor"]
+    items: ["Art Prints", "Coasters", "Fridge Magnets", "Keychains", "Wall Decor"],
+    image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg"
   },
   {
-    name: "Fashion", 
-    img: "https://images.unsplash.com/photo-1521334884684-d80222895322?w=500&auto=format",
-    items: ["Jewelry", "Bags", "Hair Accessories"]
+    name: "Fashion",
+    items: ["Jewelry", "Bags", "Hair Accessories"],
+    image: "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg"
   },
   {
     name: "Stationery",
-    img: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=500&auto=format", 
-    items: ["Notebooks", "Pens", "Sticky Notes"]
+    items: ["Notebooks", "Pens", "Sticky Notes", "Desk"],
+    image: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg"
   },
   {
     name: "Travel",
-    img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format",
-    items: ["Passport Covers", "Luggage Tags"]
+    items: ["Passport Covers", "Luggage Tags", "Bags", "Accessories", "Mugs"],
+    image: "https://images.pexels.com/photos/21014/pexels-photo.jpg"
   },
   {
     name: "Kids",
-    img: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=500&auto=format",
-    items: ["Toys", "School Items"]
+    items: ["Toys", "School Items", "Educational", "Decor"],
+    image: "https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg"
   },
   {
     name: "Bundles",
-    img: "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=500&auto=format",
-    items: ["Bracelets Bundle", "Earrings Bundle"]
+    items: ["Bracelets Bundle", "Earrings Bundle"],
+    image: "https://images.pexels.com/photos/1303086/pexels-photo-1303086.jpeg"
   }
 ];
