@@ -1,26 +1,45 @@
-const products = [
-  { name: "Notebook", price: "₹299", img: "https://images.unsplash.com/photo-1519681393784-d120267933ba" },
-  { name: "Gift Box", price: "₹499", img: "https://images.unsplash.com/photo-1607082349566-187342175e2f" },
-]
+import ProductCard from './ProductCard';
+import { products as allProducts } from "../data/products";
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
-export default function Products() {
+export default function ProductList({ products: inputProducts, title = "Trending Now" }) {
+  const displayProducts = inputProducts || allProducts.slice(0, 8);
+
   return (
-    <div className="px-6 mt-16">
-      <h2 className="text-2xl font-bold mb-6">Trending Products</h2>
+    <section className="max-w-7xl mx-auto px-6 py-16">
+      
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+          {title}
+        </h2>
+        <Link 
+          to="/products"
+          className="hidden sm:flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-primary transition-colors pb-1"
+        >
+          Explore collection
+          <ArrowRight size={16} />
+        </Link>
+      </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {products.map((p, i) => (
-          <div key={i} className="bg-white p-4 rounded-xl shadow hover:shadow-lg transition">
-            <img src={p.img} className="h-32 w-full object-cover rounded-lg" />
-            <h3 className="mt-3 font-semibold">{p.name}</h3>
-            <p className="text-teal-600 font-bold">{p.price}</p>
-
-            <button className="mt-3 w-full bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600">
-              Add to Cart
-            </button>
-          </div>
+      {/* Grid List */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
+        {displayProducts.map(product => (
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
-    </div>
+
+      {/* Mobile View All */}
+      <div className="mt-8 flex justify-center sm:hidden">
+        <Link 
+          to="/products"
+          className="flex items-center justify-center gap-2 w-full py-3.5 bg-gray-50 hover:bg-gray-100 text-gray-900 rounded-xl font-medium transition-colors border border-gray-100"
+        >
+          Explore collection
+          <ArrowRight size={16} />
+        </Link>
+      </div>
+    </section>
   )
 }
