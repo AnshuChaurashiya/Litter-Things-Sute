@@ -22,14 +22,20 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Hide scrollbar */
-body::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar {
+  width: 8px;
 }
-body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
+
+::-webkit-scrollbar-thumb {
+  background: #2c5e5e ;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+}
+
 
 @keyframes slideDown {
   from { transform: translateY(-100%); opacity: 0; }
@@ -55,4 +61,4 @@ body {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(229, 231, 235, 0.5);
-}
+}

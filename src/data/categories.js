@@ -28,5 +28,11 @@ export const categories = [
     name: "Bundles",
     items: ["Bracelets Bundle", "Earrings Bundle"],
     image: "https://images.pexels.com/photos/1303086/pexels-photo-1303086.jpeg"
+  },
+  {
+    name: "Jewar Collection",
+    items: ["Silver Elegance", "Ethnic Soul"],
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1470&auto=format&fit=crop",
+    isSpecial: true
   }
 ];

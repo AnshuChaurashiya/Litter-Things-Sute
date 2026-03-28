@@ -384,4 +384,46 @@ export const products = [
     desc: "Hand-knotted boho macrame wall decor.", 
     specs: { size: "2ft x 3ft" } 
   },
+  {
+    id: 56, name: "Silver Moonlight Jhumkas", price: "₹1899", category: "Jewar Collection", subCategory: "Silver Elegance",
+    img: "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1287&auto=format&fit=crop",
+    images: ["https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=1287&auto=format&fit=crop"],
+    desc: "Handcrafted pure silver jhumkas with intricate moonlight patterns. A timeless piece of elegance.",
+    specs: { material: "925 Silver", weight: "12g", finish: "Antique" }
+  },
+  {
+    id: 57, name: "Ethnic Kundan Choker", price: "₹4599", category: "Jewar Collection", subCategory: "Ethnic Soul",
+    img: "https://i.pinimg.com/736x/be/b1/b4/beb1b4d73ced710ad2d6e804f5c7b346.jpg",
+    images: ["https://i.pinimg.com/736x/be/b1/b4/beb1b4d73ced710ad2d6e804f5c7b346.jpg"],
+    desc: "Exquisite Kundan choker with emerald drops. Perfect for weddings and festive occasions.",
+    specs: { material: "Gold Plated Brass", stones: "Kundan & Emerald", style: "Necklace" }
+  },
+  {
+    id: 58, name: "Silver Filigree Bangle", price: "₹2499", category: "Jewar Collection", subCategory: "Silver Elegance",
+    img: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1470&auto=format&fit=crop",
+    images: ["https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1470&auto=format&fit=crop"],
+    desc: "Delicate silver filigree work bangle. Hand-forged by skilled artisans.",
+    specs: { material: "Pure Silver", size: "Adjustable", weight: "18g" }
+  },
+  {
+    id: 59, name: "Temple Guttapusalu Harm", price: "₹3899", category: "Jewar Collection", subCategory: "Ethnic Soul",
+    img: "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1334&auto=format&fit=crop",
+    images: ["https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1334&auto=format&fit=crop"],
+    desc: "Traditional temple-inspired long necklace (haram) with pearl clusters. Pure ethnic royalty.",
+    specs: { material: "Copper Alloy", plating: "22k Gold", stones: "Kemp & Pearls" }
+  },
+  {
+    id: 60, name: "Silver Oxidized Anklets", price: "₹1299", category: "Jewar Collection", subCategory: "Silver Elegance",
+    img: "https://i.pinimg.com/1200x/f7/9f/9d/f79f9d404fd33d714ebe650796de9390.jpg",
+    images: ["https://i.pinimg.com/1200x/f7/9f/9d/f79f9d404fd33d714ebe650796de9390.jpg"],
+    desc: "Bohemian style silver oxidized anklets with tiny bells. For that subtle chime in your steps.",
+    specs: { material: "German Silver", length: "10 inch", style: "Anklet" }
+  },
+  {
+    id: 61, name: "The Gold Maharaja Ring", price: "₹2999", category: "Jewar Collection", subCategory: "Ethnic Soul",
+    img: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1470&auto=format&fit=crop",
+    images: ["https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1470&auto=format&fit=crop"],
+    desc: "Bold statement ring with intricate carvings. Inspired by Indian royalty.",
+    specs: { material: "Brass Base", plating: "18k Gold", size: "Adjustable" }
+  }
 ];
