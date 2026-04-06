@@ -3,8 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom"
 import AuthPage from "./pages/AuthPage"
 import Home from "./pages/Home"
 import CategoryPage from "./pages/CategoryPage"
-import ProductsPage from "./pages/ProductsPage"
-import ProductDetail from "./pages/ProductDetail"
+ import ProductDetail from "./pages/ProductDetail"
 import TestimonialsPage from "./pages/TestimonialsPage"
 import Footer from "./components/Footer"
 import MobileBottomNav from "./components/MobileBottomNav"
@@ -41,8 +40,7 @@ export const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<AuthPage />} />
             <Route path="/category/:name" element={<CategoryPage />} />
-            <Route path="/products/:category/:subCategory" element={<ProductsPage />} />
-            <Route path="/product/:id" element={<ProductDetail />} />
+             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/testimonials" element={<TestimonialsPage />} />
             <Route path="/about" element={<About />} />
           </Routes>
