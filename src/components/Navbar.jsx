@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 export default function Navbar({ setIsCartOpen, setIsSearchOpen }) {
   const [isOpen, setIsOpen] = useState(false)
-  const [showUserMenu, setShowUserMenu] = useState(false)
+  const [showUserMenu, setShowUserMenu] = useState(false) 
   const [scrolled, setScrolled] = useState(false)
 
   const userRef = useRef(null)
