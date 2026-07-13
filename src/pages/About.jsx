@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Heart, Star, ShieldCheck, Truck, Sparkles, MapPin, Phone, Mail } from "lucide-react";
 
+// this is the about page and all information is now added
 export default function About() {
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
@@ -146,4 +147,4 @@ export default function About() {
 
     </div>
   );
-}
+}
