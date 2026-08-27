@@ -148,7 +148,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Progress & Navigation Combined */}
-      <div className="absolute right-6 md:right-20 bottom-1 -translate-y-1/2 z-20 flex flex-col gap-12 items-center">
+      <div className="absolute right-7 md:right-20 bottom-2 -translate-y-1/2 z-20 flex flex-col gap-12 items-center">
         
         
         <div className="flex flex-col gap-4">
