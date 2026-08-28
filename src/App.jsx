@@ -26,7 +26,8 @@ export const App = () => {
 
   return (
     <>
-      {!isMinimalLayout && <Navbar setIsCartOpen={setIsCartOpen} setIsSearchOpen={setIsSearchOpen} />}
+     <div>
+       {!isMinimalLayout && <Navbar setIsCartOpen={setIsCartOpen} setIsSearchOpen={setIsSearchOpen} />}
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -51,6 +52,8 @@ export const App = () => {
       <CartDrawer isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
       <SearchOverlay isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
       <MobileBottomNav setIsCartOpen={setIsCartOpen} setIsSearchOpen={setIsSearchOpen} />
-    </>
+
+     </div>
+         </>
   )
 }
