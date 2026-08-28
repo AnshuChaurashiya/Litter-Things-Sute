@@ -31,6 +31,20 @@ const heroSlides = [
     accent: "text-blue-400",
     bg: "bg-blue-500/10"
   },
+   {
+    img: "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&q=80&w=2000",
+    title: "Creative Stationery",
+    subtitle: "Design your ideas beautifully with our elegant collections.",
+    accent: "text-amber-400",
+    bg: "bg-amber-500/10"
+  },
+  {
+    img: "https://i.pinimg.com/1200x/8f/d1/49/8fd1493882021b9d11e4d7ad5df5a564.jpg",
+    title: "Travel Essentials",
+    subtitle: "Carry unparalleled style everywhere you go.",
+    accent: "text-blue-400",
+    bg: "bg-blue-500/10"
+  },
 ]
 
 export default function Hero() {
